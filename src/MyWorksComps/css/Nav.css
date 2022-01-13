@@ -1,0 +1,11 @@
+:root{
+  --fontsize-medium: 1.15em;
+}
+
+button.my-btn{
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  padding: 1em 0;
+  font-size: var(--fontsize-medium);
+}

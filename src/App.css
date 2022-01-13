@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Mina&display=swap');
+
+.App {
+  text-align: center;
+  /* font-family: 'Manrope', sans-serif; */
+  /* font-family: 'Mina', sans-serif; */
+  font-family: 'Comfortaa', cursive;
+  font-size: var(--fontsize-medium);
+  height: 200vh;
+}
+
+.light{
+  --color-primary: black;
+  --color-background: white;
+}
+
+.dark{
+  --color-primary: #fff;
+  --color-background: #000;
+}

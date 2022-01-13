@@ -1,0 +1,42 @@
+:root{
+  --fontsize-small: .75em;
+  --fontsize-medium: 1.15em;
+  --fontsize-large: 1.25em;
+}
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+blockquote{
+  color: yellow;
+  font-weight: 600;
+  font-size: var(--fontsize-medium);
+  
+  width: 20em;
+  height: 10em;
+  padding: 1em 2em;
+  margin: 1em 2em;
+
+  background-color: mediumseagreen;
+  border-radius: 1em;
+}
+
+blockquote > p{
+  height: 6em;
+}
+
+blockquote > span{
+  color: white;
+  height: 2em;
+}
+
+@media screen and (min-width: 40em){
+  .quotes {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}

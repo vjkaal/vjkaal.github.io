@@ -1,0 +1,19 @@
+.theme-button{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
+
+.light{
+  --color-primary: black;
+  --color-background: white;
+  color: var(--color-primary);
+  background: var(--color-background);
+}
+
+.dark{
+  --color-primary: white;
+  --color-background: black;
+  color: var(--color-primary);
+  background: var(--color-background);
+}
