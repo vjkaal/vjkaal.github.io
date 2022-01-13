@@ -6,9 +6,9 @@ export const Toggle = (props) => {
   // const [style, setStyle] = useState("light");
   const [themeName, setthemeName] = useState("light theme");
 
-  useEffect(() => {
-    setthemeName(themeName === "light theme"? "dark theme": "light theme");
-  }, [props.toggleTheme, themeName]);
+  // useEffect(() => {
+  //   setthemeName(themeName === "light theme"? "dark theme": "light theme");
+  // }, [props.toggleTheme, themeName]);
 
   // function btnTheme() {
   //   setStyle(style === "light" ? "dark" : "light");
@@ -22,7 +22,7 @@ export const Toggle = (props) => {
         className={["theme-button", props.theme].join(" ")}
         onClick={props.toggleTheme}
       >
-        {themeName}
+        theme
       </button>
     </div>
   );
