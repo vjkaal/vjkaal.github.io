@@ -2,18 +2,22 @@
   position: fixed;
   bottom: 2em;
   right: 2em;
+  padding: .5em;
+  border: 1px solid var(--color-secondary);
+}
+
+.theme-button:focus, .theme-button:active, .theme-button:select{
+  border: 1px solid var(--color-secondary);
 }
 
 .light{
-  --color-primary: black;
-  --color-background: white;
-  color: var(--color-primary);
-  background: var(--color-background);
+  color: var(--color-text-light);
+  background: var(--color-background-light);
+  /* border: initial; */
 }
 
 .dark{
-  --color-primary: white;
-  --color-background: black;
-  color: var(--color-primary);
-  background: var(--color-background);
+  color: var(--color-text-dark);
+  background: var(--color-background-dark);
+  /* border: unset; */
 }

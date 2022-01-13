@@ -1,10 +1,10 @@
 import React from "react";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import "./css/theme-button.css";
 
 export const Toggle = (props) => {
   // const [style, setStyle] = useState("light");
-  const [themeName, setthemeName] = useState("light theme");
+  // const [themeName, setthemeName] = useState("light theme");
 
   // useEffect(() => {
   //   setthemeName(themeName === "light theme"? "dark theme": "light theme");

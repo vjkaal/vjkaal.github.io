@@ -1,5 +1,14 @@
+header{
+  font-family: var(--font-sans-serif-n);
+  font-size: var(--fontSize-medium);
+}
+
+.header-text{
+  color: var(--color-primary);
+}
+
 @media screen and (max-width: 40em) {
-  
+
   .dont-show-in-lg-mode{
     display:none;
   }

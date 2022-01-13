@@ -12,7 +12,9 @@ export const Header = () => {
           collapseOnSelect={true}
           className="navbar navbar-expand-lg navbar-dark bg-dark container-fluid"
         >
-          <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+          <div className="brand">
+            <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+          </div>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
@@ -36,7 +38,7 @@ export const Header = () => {
             </Nav>
           </Navbar.Collapse>
 
-          <Nav className="justify-content-end dont-show-in-lg-mode">
+          <Nav className="justify-content-end header-text dont-show-in-lg-mode">
             <Navbar.Text>Vanshaj Kaushal</Navbar.Text>
           </Nav>
         </Navbar>
