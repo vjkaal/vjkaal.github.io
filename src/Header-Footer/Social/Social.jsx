@@ -1,15 +1,16 @@
 import React from "react";
+import SocialLink from "./SocialLink";
 
-import github from "src/res/img/github.svg";
-import stackoverflow from "src/res/img/stackoverflow.svg";
-import instagram from "src/res/img/instagram.svg";
+import github from "./../../res/img/github.svg";
+import stackoverflow from "./../../res/img/stackoverflow.svg";
+import instagram from "./../../res/img/instagram.svg";
 
 const Social = () => {
   const social_links = [
     {
       class: "github",
       url: "https://github.com/vjkaal",
-      img: { github },
+      img: github,
       alt: 'link to my github account'
     },
     {
