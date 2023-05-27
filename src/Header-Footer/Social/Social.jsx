@@ -10,16 +10,19 @@ const Social = () => {
       class: "github",
       url: "https://github.com/vjkaal",
       img: { github },
+      alt: 'link to my github account'
     },
     {
       class: "stackoverflow",
       url: "https://stackoverflow.com/users/12975144/vjkaal",
       img: stackoverflow,
+      alt: 'link to my stackoverflow account'
     },
     {
       class: "instagram",
       url: "https://instagram.com/kaushal.vanshaj",
       img: instagram,
+      alt: 'link to my instagram account'
     },
   ];
   return (
@@ -31,6 +34,7 @@ const Social = () => {
             class={link.class}
             url={link.url}
             img={link.img}
+            alt={link.alt}
           />
         );
       })}
