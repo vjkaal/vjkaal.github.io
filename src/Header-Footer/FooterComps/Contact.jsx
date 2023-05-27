@@ -5,6 +5,8 @@ import Form from "../Form/Form";
 
 import bg from './../../res/img/bg.jpg';
 
+import './style/Contact.sass';
+
 const Contact = () => {
   return (
     <div className="contact-content">
