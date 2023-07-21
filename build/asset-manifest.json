@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/vjkaal/vjkaal.github.io.git/static/css/main.bbc52494.css",
+    "main.js": "/vjkaal/vjkaal.github.io.git/static/js/main.ba9c104f.js",
+    "static/js/787.3101fa9d.chunk.js": "/vjkaal/vjkaal.github.io.git/static/js/787.3101fa9d.chunk.js",
+    "static/media/bg_light.jpg": "/vjkaal/vjkaal.github.io.git/static/media/bg_light.e69bb15d459be881c751.jpg",
+    "static/media/bg.jpg": "/vjkaal/vjkaal.github.io.git/static/media/bg.59c17df378affe3318f3.jpg",
+    "static/media/icon_light.png": "/vjkaal/vjkaal.github.io.git/static/media/icon_light.a5b23caf318e68ee4d9f.png",
+    "static/media/mad3d.ico": "/vjkaal/vjkaal.github.io.git/static/media/mad3d.1562b628a1f019d184d5.ico",
+    "static/media/github.svg": "/vjkaal/vjkaal.github.io.git/static/media/github.8d1bc524d64f25bee143d25b34c557ac.svg",
+    "static/media/instagram.svg": "/vjkaal/vjkaal.github.io.git/static/media/instagram.c5ee129afb971fbb9e09720d9f7e3fec.svg",
+    "static/media/paint.svg": "/vjkaal/vjkaal.github.io.git/static/media/paint.28f922926be4c5f07dd6cc8078be1a8a.svg",
+    "static/media/cpp.svg": "/vjkaal/vjkaal.github.io.git/static/media/cpp.5eb1abc418ed3dd0e1d217f2e5fb2d1e.svg",
+    "static/media/java.svg": "/vjkaal/vjkaal.github.io.git/static/media/java.5386b56c3206b6bd70b1053534d73dc3.svg",
+    "static/media/c.svg": "/vjkaal/vjkaal.github.io.git/static/media/c.f3c93ffaea1321f5cfc0092ef579e390.svg",
+    "static/media/react.svg": "/vjkaal/vjkaal.github.io.git/static/media/react.a060cbe85e50deda1d61452cee9de5b2.svg",
+    "static/media/python.svg": "/vjkaal/vjkaal.github.io.git/static/media/python.026a62687ef705a39cfc755d7457859c.svg",
+    "static/media/classroom.svg": "/vjkaal/vjkaal.github.io.git/static/media/classroom.8c37f51f123bf19948ec2d7aa9be4c93.svg",
+    "static/media/js.svg": "/vjkaal/vjkaal.github.io.git/static/media/js.34cd9860149518f3e4ecc21a4b50efae.svg",
+    "static/media/matrix.svg": "/vjkaal/vjkaal.github.io.git/static/media/matrix.c302e24ba95973cb89906b6bd1115068.svg",
+    "index.html": "/vjkaal/vjkaal.github.io.git/index.html",
+    "static/media/electronix.svg": "/vjkaal/vjkaal.github.io.git/static/media/electronix.c6753ba899d9b38bb4e30d071ea9ca7d.svg",
+    "static/media/stackoverflow.svg": "/vjkaal/vjkaal.github.io.git/static/media/stackoverflow.0ee9384c1deee454fba352ecc0d47bb6.svg",
+    "static/media/close_light.svg": "/vjkaal/vjkaal.github.io.git/static/media/close_light.604f17ae9e7f7ab96de76a3408313180.svg",
+    "static/media/menu_light.svg": "/vjkaal/vjkaal.github.io.git/static/media/menu_light.e486499b733632c93143e6f46ed9ff14.svg",
+    "main.bbc52494.css.map": "/vjkaal/vjkaal.github.io.git/static/css/main.bbc52494.css.map",
+    "main.ba9c104f.js.map": "/vjkaal/vjkaal.github.io.git/static/js/main.ba9c104f.js.map",
+    "787.3101fa9d.chunk.js.map": "/vjkaal/vjkaal.github.io.git/static/js/787.3101fa9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbc52494.css",
+    "static/js/main.ba9c104f.js"
+  ]
+}
