@@ -1,0 +1,41 @@
+@import './../master'
+
+.skill-container
+  // background: $primary
+  // margin: .5rem 0
+  flex: 60%
+  width: fit-content
+  min-height: 6rem
+  max-height: 6rem
+  text-align: center
+  // border: 1px solid white
+  font-family: $font1
+  &:hover
+    // background: rgba($accent, 0.5)
+    cursor: pointer
+    padding: unset
+    > .img-container
+      transform: scale(1.1)
+    .text-container
+      display: block
+
+  > .img-container
+    width: fit-content
+    display: block
+    transition: transform .3s ease-in-out
+    // border: 1px solid white
+    > img
+      width: 6rem
+
+  // > .text-container
+  //   // border: 1px solid black
+  //   height: 5.5rem
+  //   // width: 85%
+  //   display: none
+  //   top: 0
+  //   left: 0
+  //   color: $dark
+  //   // text-transform: capitalize
+  //   font-weight: bold
+  //   font-size: $fs-heading
+  //   text-align: center

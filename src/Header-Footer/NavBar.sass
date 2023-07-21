@@ -1,0 +1,64 @@
+@import './../master'
+
+nav
+  min-width: 100%
+  max-width: 100%
+  min-height: inherit
+  max-height: inherit
+
+  // display: flex
+  // justify-content: space-between
+  // align-items: center
+  
+  > .left-content
+    width: fit-content
+    // background: $primary
+    color: $secondary
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  > button
+    background: transparent
+    border: 0
+  
+  > .right-content
+    background: $primary
+    position: absolute
+    left: 0
+    top: 9vh
+    min-width: 91%
+    max-width: 91%
+    padding: .5rem 1rem
+    text-align: right
+
+
+@media screen and (min-width: 768px)
+  nav
+    // padding: 0 5rem
+    max-width: 100%
+    font-size: $fs-medium
+    display: flex
+    flex-flow: row nowrap
+    justify-content: space-between
+    align-items: center
+    // background: $secondary
+    > .left-content
+      margin-left: 5rem
+      max-width: 20%
+      // background: $accent
+    > button
+      display: none
+    > .right-content
+      all: unset
+      min-width: 40%
+      max-width: 40%
+      margin-right: 5rem
+      // background: $accent
+      // position: relative
+      // display: flex
+      // border: 1px solid black
+
+
+
+

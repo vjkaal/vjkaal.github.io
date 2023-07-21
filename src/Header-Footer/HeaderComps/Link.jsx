@@ -1,8 +1,14 @@
 import React from 'react'
 
-const Link = (props) => {
+interface link{
+  class: string,
+  href: string,
+  name: string
+}
+
+const Link = (props:link) => {
   return (
-    <div className={props.class + '-link'}>
+    <div className={props.class + '-link nav-link'}>
       <a href={props.href}>{props.name}</a>
     </div>
   )

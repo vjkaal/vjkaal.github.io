@@ -1,33 +1,36 @@
 import React from "react";
 import Link from "./Link";
 
+
+import './Links.sass'
+
 const Links = () => {
   const links = [
     {
       class: 'home',
-      href: "#",
+      href: "/",
       name: "home",
     },
+    // {
+    //   class: 'skills',
+    //   href: "#",
+    //   name: 'skills'
+    // },
     {
-      class: 'skills',
-      href: "#",
-      name: 'skills'
+      class: 'my works',
+      href: "/",
+      name: 'my works'
     },
     {
-      class: 'works',
-      href: "#",
-      name: 'works'
-    },
-    {
-      class: 'about',
-      href: "#",
-      name: 'about'
+      class: 'about me',
+      href: "#about",
+      name: 'about me'
     }
   ];
 
   return <div className="links">
-    {links.map((link)=>{
-      return <Link id={link.name} class={link.class} href={link.href} name={link.name} />
+    {links.map((link, index)=>{
+      return <Link key={index} class={link.class} href={link.href} name={link.name} />
     })}
   </div>;
 };

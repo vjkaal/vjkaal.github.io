@@ -1,5 +1,8 @@
 import React from "react";
 import Attrib from "./Attrib";
+import Heading from "../HeaderComps/Heading";
+
+import './Attributions.sass'
 
 const Attributions = () => {
   const attribs = [
@@ -18,17 +21,20 @@ const Attributions = () => {
   ];
   return (
     <div className="attribs-container">
-      {attribs.map((attrib, index) => {
-        return (
-          <Attrib
-            key={index}
-            class={attrib.class}
-            text={attrib.text}
-            link={attrib.link}
-            auth={attrib.auth}
-          />
-        );
-      })}
+      <Heading heading="Attributions" fontSize="3rem" />
+      <div className="attributions">
+        {attribs.map((attrib, index) => {
+          return (
+            <Attrib
+              key={index}
+              class={attrib.class}
+              text={attrib.text}
+              link={attrib.link}
+              auth={attrib.auth}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './Copy.sass'
+
 const Copy = () => {
   return (
     <div className='copy-content'>

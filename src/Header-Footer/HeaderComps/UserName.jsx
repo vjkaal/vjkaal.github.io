@@ -1,8 +1,12 @@
 import React from 'react'
 
-import './../style/UserName.sass'
+import './UserName.sass'
 
-const UserName = (props) => {
+interface username{
+  username: string
+}
+
+const UserName = (props:username) => {
   return (
     <div className='user-name'>
       <p>{props.username}</p>

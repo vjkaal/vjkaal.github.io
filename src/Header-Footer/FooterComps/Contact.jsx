@@ -1,27 +1,20 @@
 import React from "react";
 import Heading from "../HeaderComps/Heading";
-import Image from "../Image/Image";
+// import Image from "../Image/Image";
 import Form from "../Form/Form";
 
-import bg from './../../res/img/bg.jpg';
+import bg from "./../../res/img/bg.jpg";
 
-import './style/Contact.sass';
+import "./Contact.sass";
 
 const Contact = () => {
   return (
-    <div className="contact-content">
-      <div className="left-container">
-        <div className="heading">
-          <Heading heading="Have a Project in your mind?" />
-        </div>
-        <div className="image-container">
-          <Image class="bg" src={bg} alt="Image containing abstract technical content" />
-        </div>
+    <div className="contact-container">
+      <div className="left-container" /*{style={{'background': `url(${bg})`}}}*/>
+        <Heading heading="Have a Project in your mind?" fontSize="3rem" />
       </div>
       <div className="right-container">
-        <div className="form-contianer">
-          <Form />
-        </div>
+        <Form />
       </div>
     </div>
   );

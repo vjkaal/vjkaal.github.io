@@ -1,10 +1,14 @@
 import React from 'react'
 
-import './../style/Heading.sass'
+import './Heading.sass'
+
+// interface heading{
+//   heading: string
+// }
 
 const Heading = (props) => {
   return (
-    <div className='heading'><h1>{props.heading}</h1></div>
+    <div className='heading' style={{'height': "100%", 'fontSize': `${props.fontSize}`}} ><h1>{props.heading}</h1></div>
   )
 }
 
