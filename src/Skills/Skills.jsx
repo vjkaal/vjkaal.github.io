@@ -4,7 +4,6 @@ import MyWorks from "./MyWorks/MyWorks";
 import SkillHeading from "./SkillHeading";
 import Skill from "./Skill";
 
-import c from "./../res/img/c.svg";
 import cpp from "./../res/img/cpp.svg";
 import java from "./../res/img/java.svg";
 import python from "./../res/img/python.svg";
@@ -16,15 +15,8 @@ import "./Skills.sass";
 const Skills = () => {
   const skills_list = [
     {
-      class: "c",
-      name: "C Programming Language",
-      icon: c,
-      alt: "skill: c",
-      clr: "#283593",
-    },
-    {
       class: "c++",
-      name: "C++ Programming Language",
+      name: "C/C++ & OpenGL",
       icon: cpp,
       alt: "skill: cpp",
       clr: "#00549d",
