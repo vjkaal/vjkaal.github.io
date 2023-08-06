@@ -3,7 +3,7 @@ import Heading from "../HeaderComps/Heading";
 // import Image from "../Image/Image";
 import Form from "../Form/Form";
 
-import bg from "./../../res/img/bg.jpg";
+// import bg from "./../../res/img/bg.jpg";
 
 import "./Contact.sass";
 

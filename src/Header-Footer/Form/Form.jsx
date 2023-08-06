@@ -72,7 +72,7 @@ const Form = () => {
         <fieldset className="main-form">
           {form_content.map((field, index) => {
             console.log(field.type);
-            if (field.type == "textarea") {
+            if (field.type === "textarea") {
               return (
                 <Textarea
                   key={index}

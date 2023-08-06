@@ -13,10 +13,6 @@ const MyWorks = (props) => {
 
   const works_set = [
     {
-      class: 'c',
-      projects: []
-    },
-    {
       class: 'c++',
       projects: [
         {
